@@ -26,11 +26,12 @@
             margin-bottom: 20px; /* Ajoute de l'espace sous chaque section */
         }
 
+        /* Style des liens */
         a {
             color: #007bff; /* Couleur bleue pour les liens */
             text-decoration: underline; /* Souligner les liens */
-            margin: 15px 0; /* Espacement autour des liens */
-            display: inline-block;
+            margin: 0 15px; /* Espacement horizontal entre les liens */
+            display: inline-block; /* Les liens sont alignés horizontalement */
         }
 
         a:hover {
@@ -48,10 +49,10 @@
     <h1>Nicolas Nguyen</h1>
 
     <!-- Textes principaux avec marges pour aérer -->
-    <span>I am a PhD student under the supervision of <a href="https://www.cvernade.com">Claire Vernade</a>.</span>
+    <span>I am a PhD student under the supervision of <a href="https://www.cvernade.com" style="display: inline;">Claire Vernade</a>.</span>
     <span class="research-interest">Research interest: bandits, Bayesian approximations, portfolio construction.</span>
 
-    <!-- Liens espacés avec les URLs affichées -->
+    <!-- Liens espacés avec les URLs affichées, sur la même ligne -->
     <a href="https://scholar.google.com/citations?user=NKMioGgAAAAJ&hl=en">
         Google Scholar
     </a>
@@ -60,6 +61,9 @@
     </a>
     <a href="https://github.com/nguyenicolas">
         Github
+    </a>
+    <a href="https://www.linkedin.com/in/nicolas-nguyen-61954119a/">
+        Linkedin
     </a>
 
     <!-- Travail récent avec marges supplémentaires -->
