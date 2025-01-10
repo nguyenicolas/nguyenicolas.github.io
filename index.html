@@ -1,29 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Nguyen</title>
     <style>
-      body {
-          text-align: center;
-          font-size: 18px; /* Adjust this value as needed */
-      }
-      ul, ol {
-          text-align: left; /* Fix list alignment */
-          display: inline-block; /* Keeps the list centered as a block */
-      }
+        /* Style de base avec espacement */
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px; /* Un peu plus de padding autour de la page */
+            font-size: 16px;
+            line-height: 1.6; /* Plus d'espace entre les lignes de texte */
+            background-color: #f7f7f7; /* Fond gris clair pour un effet aéré */
+        }
 
-  </style>
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px; /* Espacement sous le titre */
+        }
+
+        span, .research-interest {
+            display: block;
+            margin-bottom: 20px; /* Ajoute de l'espace sous chaque section */
+        }
+
+        a {
+            color: #007bff; /* Couleur bleue pour les liens */
+            text-decoration: underline; /* Souligner les liens */
+            margin: 15px 0; /* Espacement autour des liens */
+            display: inline-block;
+        }
+
+        a:hover {
+            color: #0056b3; /* Changer la couleur au survol */
+        }
+
+        p {
+            margin-top: 30px; /* Un peu plus d'espace avant les paragraphes */
+            margin-bottom: 20px; /* Espacement sous les paragraphes */
+        }
+    </style>
 </head>
 <body>
+
     <h1>Nicolas Nguyen</h1>
-    <p>I am a PhD Student working with
-      <A
-      HREF="https://www.cvernade.com">
-      Claire Vernade</A>.
-  <br>
-    <a href="https://scholar.google.com/citations?user=NKMioGgAAAAJ&hl=en">Google Scholar</a><br>
-    <a href="mailto:nicolas.nguyen@uni-tuebingen.de">Email</a><br>
-    <a href="https://github.com/nguyenicolas">Github</a><br>
-  <br>
+
+    <!-- Textes principaux avec marges pour aérer -->
+    <span>I am a PhD student under the supervision of <a href="https://www.cvernade.com">Claire Vernade</a>.</span>
+    <span class="research-interest">Research interest: bandits, Bayesian approximations, portfolio construction.</span>
+
+    <!-- Liens espacés avec les URLs affichées -->
+    <a href="https://scholar.google.com/citations?user=NKMioGgAAAAJ&hl=en">
+        Google Scholar
+    </a>
+    <a href="mailto:nicolas.nguyen@uni-tuebingen.de">
+        Email
+    </a>
+    <a href="https://github.com/nguyenicolas">
+        Github
+    </a>
+
+    <!-- Travail récent avec marges supplémentaires -->
+    <p>My recent work on Bayesian approximations for portfolio construction:</p>
+    <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKMioGgAAAAJ&citation_for_view=NKMioGgAAAAJ:UeHWp8X0CEIC">
+        Variational Bayes Portfolio Construction
+    </a></p>
+
 </body>
 </html>
